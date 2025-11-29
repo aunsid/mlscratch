@@ -52,6 +52,7 @@ class LogisticRegression:
                 pass
 
             # Compute gradients
+            # https://math.stackexchange.com/questions/2503428/derivative-of-binary-cross-entropy-why-are-my-signs-not-right
             dloss = 1
             dy_predicted = -((y / y_predicted) - (1 - y) / (1 - y_predicted)) * dloss
             dh =y_predicted * (1 - y_predicted) * dy_predicted
