@@ -26,6 +26,7 @@ class LogisticRegression:
         return 1 / (1 + np.exp(-z))
 
     def fit(self, X, y):
+        # initalize
         n_samples, n_features = X.shape
         self.weights = np.random.randn(n_features, 1) * 0.1
         self.bias = 0

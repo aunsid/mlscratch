@@ -23,6 +23,7 @@ class LinearRegression:
         self.losses = []
     
     def fit(self, X, y):
+        # initialize
         n_samples, n_features = X.shape
         self.weights = np.random.randn(n_features, 1)
         self.bias = 0 
