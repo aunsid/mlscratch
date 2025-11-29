@@ -124,6 +124,8 @@ def adam(w, dw, config=None):
     v = beta2*v + (1-beta2)*(dx**2)  -> rmsprop
     x += - learning_rate * m / (np.sqrt(v) + eps)
 
+    https://www.youtube.com/watch?v=JXQT_vxqwIs
+
 
     config format:
     - learning_rate: Scalar learning rate.
