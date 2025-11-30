@@ -13,6 +13,7 @@ That are commonly asked in interviews.
 
 ## Classifiers
 1. KNN
+2. Logistic Regression
 
 ## NN
 1. Forward Pass
